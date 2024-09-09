@@ -1,32 +1,39 @@
+/* Imports */
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
 /* * Wildcard rules, override browser defaults */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /* General Body Styles */
-body{
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     /* Generic Project Styles */
     color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
 }
 
 /* Header */
-header{
+header {
     background-color: lightblue;
 }
 
 /* Main Body */
-main{
-    background-color: blue;
+main {
+    background-color: lightcyan;
+    /* Make main element take up surplus space to push footer to bottom */
+    flex: 1 0 auto;
 }
 
 /* Footer */
-footer{
+footer {
     background-color: green;
-    /* Make main element take up surplus space to push footer to bottom */
-    flex: 1 0 auto;
+
 }
