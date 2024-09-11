@@ -119,4 +119,23 @@ footer {
         display: none;
     }
 
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main Content for Tablet Screen size */
+    main {
+        /* Move main content down due to larger screen */
+        margin-top: 79px;
+    }
+}
+
+/* Laptops and Up Screen Sizes 992px upwards */
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }
+    
 }
