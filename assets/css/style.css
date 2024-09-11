@@ -57,8 +57,7 @@ h1 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* Nav Bar Styles */
-
+/* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -70,8 +69,7 @@ nav {
     top: 100%;
 }
 
-/* Nav Toggle Styles with dropdown*/
-
+/* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -83,15 +81,42 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
+
 /* Main content */
 main {
     background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 50px;
+    margin-top: 47px;
 }
 
 /* Footer */
 footer {
     background-color: orange;
+}
+
+/* Media Queries */
+
+/* Tablets and Larger (768px and Up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
 }
