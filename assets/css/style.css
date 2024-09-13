@@ -215,11 +215,12 @@ main {
 
 /* Form */
 #signup {
+    background: url("../images/signup-image.webp");
     background-size: cover;
     background-position: 75%;
-    background: url("../images/signup-image.webp") no-repeat;
-    flex-grow: 1;
     padding: 20px 10% 0 10%;
+    flex-grow: 1;
+    
 }
 
 #signup-form {
