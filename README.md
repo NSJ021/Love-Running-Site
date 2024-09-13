@@ -1,3 +1,13 @@
+# Love Running
+## Guided Project
+
+https://nsj021.github.io/Love-Running-Site/assets/images/reasons-image.webp
+
+[Live Preview](https://nsj021.github.io/Love-Running-Site/)
+
+
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome Nathan Jones,
