@@ -1,7 +1,7 @@
 # Love Running
 ## Guided Project
 
-https://nsj021.github.io/Love-Running-Site/assets/images/reasons-image.webp
+![Image of the Love Running Site, highlighting the responsiveness](/assets/images/responsive-image.png)
 
 [Live Preview](https://nsj021.github.io/Love-Running-Site/)
 
